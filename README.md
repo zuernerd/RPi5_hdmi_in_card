@@ -33,13 +33,13 @@ Make sure the device is connected to the HDMI IN
     
         bash enablehdmi.sh
 
+**The script is fully customizable. You can play with the variable and change the detection resolution.**
+
 ### 5 - Test using Python and OpenCV
 U can test the screencapturing using python. Adjust the parameters in
 the program to your needs and run:
 
         python testcv.py
-
-**The script is fully customizable. You can play with the variable and change the detection resolution.**
 
 **Running the Script**
 ![alt text](https://github.com/FearL0rd/RPi5_hdmi_in_card/blob/main/HDMICARDIMG.png?raw=true)
