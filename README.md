@@ -36,8 +36,8 @@ Make sure the device is connected to the HDMI IN
 **The script is fully customizable. You can play with the variable and change the detection resolution.**
 
 ### 5 - Test using Python and OpenCV
-U can test the screencapturing using python. Adjust the parameters in
-the program to your needs and run:
+Next you can test the input using OpenCV and Python. Adjust the 
+parameters in the program and run:  
 
         python testcv.py
 
