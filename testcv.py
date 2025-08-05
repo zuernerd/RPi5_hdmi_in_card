@@ -47,12 +47,6 @@ def capture_and_display():
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q') or key == 27:
                 break
-            
-            
-            # Optional: Capture only 2 frames (equivalent to --stream-count=2)
-            # Uncomment the following lines if you want to capture only 2 frames
-            # if frame_count - skip_frames >= 2:
-            #     break
     
     except KeyboardInterrupt:
         print("\nCapture interrupted by user")
